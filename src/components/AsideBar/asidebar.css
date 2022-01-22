@@ -1,0 +1,57 @@
+.container-sidebar {
+    grid-area: asideBar;
+    /* width: 100%; */
+    background-color: var(--purple-6);
+}
+
+.aside {
+    padding-block: 2rem;
+
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.list-items {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-items li {
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 2rem;
+}
+
+.list-items li:active, .list-items li:focus {
+    background-color: var(--purple-1);
+}
+
+.list-items li:active .items-sidebar, .list-items li:visited .items-sidebar {
+    color: var(--purple-6);
+}
+
+.items-sidebar {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    color: var(--purple-1);
+    filter: brightness(0.8);
+}
+
+.items-sidebar:hover {
+    filter: brightness(2);
+}
+

@@ -1,13 +1,14 @@
 import React from 'react'
+import AsideBar from '../../components/AsideBar'
+import Header from '../../components/Header'
 import Main from '../../components/Main'
-import SideBar from '../../components/SideBar'
-import NavBar from '../../components/NavBar'
+import './dashboard.css'
 
 function Dashboard() {
     return (
-        <div className='container'>
-            <NavBar/>
-            <SideBar/>
+        <div className='container-dashboard'>
+            <Header/>
+            <AsideBar/>
             <Main/>
         </div>
     )

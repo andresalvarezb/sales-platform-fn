@@ -35,6 +35,10 @@ a {
 	color: var(--purple-6);
 }
 
+ul {
+	list-style: none;
+}
+
 input {
 	border: 1px solid transparent;
 	height: 2.5rem;
