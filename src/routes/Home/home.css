@@ -1,0 +1,76 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100vh;
+}
+
+.container__img {
+    grid-column: 1 / 2;
+    background-color: var(--magenta-6);
+}
+
+.container__img img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: center;
+}
+
+.container__form {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__form label {
+    display: block;
+    margin: 2rem 0;
+}
+
+.container__form input {
+    background-color: var(--purple-1);
+    border: 1px solid var(--purple-2);
+    box-shadow: var(--purple-2) 0px 0px 15px;
+}
+
+.container__form p {
+    margin-bottom: 7px;
+}
+
+.container__form span {
+   display: block;
+   font-size: 0.8em;
+   margin-top: 5px;
+   font-weight: 700;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-btn button {
+    width: 100%;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.extra-information {
+    width: 330px;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-top: 0.5rem;
+}
+
+.extra-information p:last-child{
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-top: 2rem;
+}
+
+.extra-information p:last-child a{
+    font-size: 0.8rem;
+    opacity: 1;
+}

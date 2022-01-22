@@ -1,0 +1,48 @@
+:root {
+	--magenta-1: #fff0f6; /* text contrasts primary color*/
+	--magenta-2: #ffd6e7; /* input border login*/
+	--magenta-6: #eb2f96;	/* Primary color*/
+	--purple-1: #f9f0ff;	/* text contrasts secondary color*/
+	--purple-2: #efdbff;	/* input border login*/
+	--purple-6: #722ed1;	/* secondary color*/
+	
+	--gray-12: #141414;	/* text primary color*/
+	--magenta-10: #520339; /* text secondary color*/
+	--purple-8: #391085;	
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+a {
+	text-decoration: none;
+	color: var(--purple-6);
+}
+
+input {
+	border: 1px solid transparent;
+	height: 2.5rem;
+	width: 330px;
+	padding: 5px 8px;
+	border-radius: 3px;
+}
+
+p {
+	color: var(--gray-12);
+}
