@@ -6,14 +6,13 @@
 
 .container__img {
     grid-column: 1 / 2;
-    background-color: var(--magenta-6);
-}
-
-.container__img img {
+    background-color: var(--color-1-2);
     width: 100%;
     height: 100%;
-    object-fit:cover;
-    object-position: center;
+    background-image: url('../../assets/Money.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .container__form {
@@ -29,9 +28,12 @@
 }
 
 .container__form input {
-    background-color: var(--purple-1);
-    border: 1px solid var(--purple-2);
+    background-color: var(--color-3-1);
+    border: 1px solid var(--color-1-2);
     box-shadow: var(--purple-2) 0px 0px 15px;
+    outline: none;
+    box-shadow: var(--color-1-2) 0px 0px 4px;
+
 }
 
 .container__form p {

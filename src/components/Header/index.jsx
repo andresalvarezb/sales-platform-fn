@@ -10,7 +10,7 @@ function Header() {
                   <span>andres alvarez</span>
               </div>
               <div className="dropdown">
-                  <Button type='button'>setting <i className="fas fa-sort-down"></i></Button>
+                  <Button type='button' primary>setting <i className="fas fa-sort-down"></i></Button>
                   <ul className='dropdown-menu'>
                       <li><a href="/">My profile</a></li>
                       <li><a href="/">Sing off</a></li>
