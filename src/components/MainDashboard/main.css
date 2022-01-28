@@ -2,11 +2,6 @@
     grid-area: main;
     width: 100%;
     height: 100%;
-    /* background-color: var(--color-1-5); */
-    /* opacity: 0.5; */
-    /* background-image:  radial-gradient(#722ed1 1.05px, transparent 1.05px), radial-gradient(#722ed1 1.05px, #f5f5f5 1.05px); */
-    /* background-size: 42px 42px; */
-    /* background-position: 0 0,21px 21px; */
 }
 
 .WrapperMain-dashboard {
@@ -15,6 +10,7 @@
     align-items: center;
     max-width: 1100px;
     margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .FormDashboard {
@@ -33,13 +29,22 @@
     grid-template-columns: 100%;
     grid-template-rows: repeat(4, 25%);
     gap: 0.7rem;
+    margin: auto;
 }
 
 .WrapperForm-fieldset input, .WrapperForm-fieldset select{
     height: 1.7rem;
+    min-width: 271px;
     max-width: 300px;
     padding-block: 0;
     border-color: var(--color-4-4);
+}
+
+.WrapperForm-fieldset input:focus, .WrapperForm-fieldset select:focus {
+    background-color: var(--color-3-1);
+    border: 1px solid var(--color-1-2);
+    box-shadow: var(--purple-2) 0px 0px 15px;
+    box-shadow: var(--color-1-2) 0px 0px 4px;
 }
 
 .WrapperCustomer-label {

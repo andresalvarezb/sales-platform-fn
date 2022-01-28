@@ -37,16 +37,15 @@ function MainDashboard() {
                                     <p>Contact</p>
                                     <input type="text" name="Contact" value={'other thing'} disabled/>
                                 </label>
-                                
                             </fieldset>
 
                             <fieldset className='WrapperForm-fieldset WrapperForm-fieldset--seller WrapperSeller'>
                                 <label className='WrapperCustomer-label'>
-                                    <p>Date</p>
+                                    <p>Number</p>
                                     <input type="number" name="number"/>
                                 </label>
                                 <label className='WrapperCustomer-label'>
-                                    <p>seller</p>
+                                    <p>Seller</p>
                                     <input list='seller' name="" id="" />
                                     <datalist id='seller'>
                                         <option value="andres">andres</option>
