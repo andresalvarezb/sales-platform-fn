@@ -6,7 +6,7 @@ import './dashboard.css'
 
 function Dashboard() {
     return (
-        <div className='container-dashboard'>
+        <div className='Dashboard'>
             <Header/>
             <AsideBar/>
             <Main/>
