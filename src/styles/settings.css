@@ -1,0 +1,58 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+a {
+	text-decoration: none;
+	color: var(--black);
+}
+
+ul {
+	list-style: none;
+}
+
+input, select {
+	border: 1px solid transparent;
+	width: 100%;
+	height: 2.5rem;
+	padding: 5px 8px;
+	border-radius: 3px;
+    outline: none;
+    border: 1px solid #000;
+	/* width: 330px; */
+}
+
+
+/* reset button styles */
+button {
+	border: 1px solid transparent;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+	/* border: none; */
+	/* font: inherit; */
+}
+
+fieldset {
+	border-color: transparent;
+}
+
+label {
+	display: block;
+}
