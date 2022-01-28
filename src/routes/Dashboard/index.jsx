@@ -1,7 +1,7 @@
 import React from 'react'
 import AsideBar from '../../components/AsideBar'
 import Header from '../../components/Header'
-import Main from '../../components/Main'
+import MainDashboard from '../../components/MainDashboard'
 import './dashboard.css'
 
 function Dashboard() {
@@ -9,7 +9,7 @@ function Dashboard() {
         <div className='Dashboard'>
             <Header/>
             <AsideBar/>
-            <Main/>
+            <MainDashboard/>
         </div>
     )
 }

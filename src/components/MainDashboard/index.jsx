@@ -8,7 +8,7 @@ import './main.css';
 //     {value: 'Lisa', key: 'Lisa'},
 //     {value: 'Silvia', key: 'Silvia'},
 // ]
-function Main() {
+function MainDashboard() {
     return (
         <div className='container-main'>
             <main className='main-dashboard'>
@@ -60,4 +60,4 @@ function Main() {
     )
 }
 
-export default Main
+export default MainDashboard

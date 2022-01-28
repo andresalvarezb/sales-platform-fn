@@ -48,3 +48,20 @@
 .u-py-3 {
     padding-block: 3rem;
 }
+
+/* Padding */
+.u-p-0 {
+    padding: 0.5rem;
+}
+.u-p-1 {
+    padding: 1rem;
+}
+.u-p-2 {
+    padding: 2rem;
+}
+.u-p-2-5 {
+    padding: 2.5rem;
+}
+.u-p-3 {
+    padding: 3rem;
+}

@@ -4,16 +4,16 @@ import Button from '../Button'
 
 function Header() {
   return (
-      <div className='container-header'>
-          <header className='header'>
-              <div className="container-user">
-                  <span>andres alvarez</span>
+      <div className='WrapperHeader'>
+          <header className='Header'>
+              <div className="Header-user">
+                  <span className='Header-nameUser'>Andres Alvarez</span>
               </div>
-              <div className="dropdown">
+              <div className="Header-dropdown Dropdown">
                   <Button type='button' primary>setting <i className="fas fa-sort-down"></i></Button>
-                  <ul className='dropdown-menu'>
-                      <li><a href="/">My profile</a></li>
-                      <li><a href="/">Sing off</a></li>
+                  <ul className='Dropdown-menu'>
+                      <li className='Dropdown-item u-p-0'><a href="/">My profile</a></li>
+                      <li className='Dropdown-item u-p-0'><a href="/">Sing off</a></li>
                   </ul>
               </div>
           </header>
