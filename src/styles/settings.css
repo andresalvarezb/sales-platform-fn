@@ -56,3 +56,7 @@ fieldset {
 label {
 	display: block;
 }
+
+th, td {
+	font-size: 0.8rem;
+}

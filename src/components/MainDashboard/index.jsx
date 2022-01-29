@@ -1,6 +1,7 @@
 import React from 'react'
 import HeaderFormDashboard from '../HeaderFormDashboard';
 import './maindashboard.css';
+import Table from './Table';
 
 
 function MainDashboard() {
@@ -8,8 +9,9 @@ function MainDashboard() {
         <div className='WrapperMain'>
             <main className='WrapperMain-dashboard'>
                 <form action="" className='FormDashboard'>
-                    <HeaderFormDashboard/>
-                    <hr/>
+                    <HeaderFormDashboard />
+                    <hr />
+                    <Table/>
                 </form>
             </main>
         </div>
