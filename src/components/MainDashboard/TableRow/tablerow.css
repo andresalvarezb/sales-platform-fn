@@ -1,22 +1,26 @@
 .Table {
     border-spacing: 0;
-  border-collapse: collapse;
-  width: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
+
 .TableBody-row {
-   height: 1.5rem;
+    height: 1.5rem;
     margin-block: 10px 0;
 }
+
 .TableBody-row:hover {
     background-color: var(--color-4-2);
 }
 
-.TableBody-row > td:nth-child(2) {
+.TableBody-row>td:nth-child(2) {
     text-align: center;
 }
+
 .TableBody-row td {
     padding: 0.5rem 0;
 }
-td > button:last-child {
+
+td>button:last-child {
     margin-left: 5px;
 }

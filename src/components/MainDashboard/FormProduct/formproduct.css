@@ -1,0 +1,28 @@
+
+.FormProduct-input {
+    height: 1.7rem;
+    width: 250px;
+    font-size: 0.8rem;
+    border-color: var(--color-4-3);
+}
+
+.FormProduct-input--quantity {
+    width: 100px;
+}
+
+.FormProduct-input:focus {
+    border-color: var(--color-4-4);
+}
+
+.FormProduct-button{
+    /* background-color: var(--color-1-1); */
+    /* width: fit-content; */
+    width: auto;
+    margin: 0 0 0 1rem;
+    font-size: 0.8rem;
+}
+
+.FormProduct-button:last-child {
+    color: var(--color-1-1); 
+    border-color: var(--color-1-1);
+}
