@@ -2,7 +2,7 @@ import React from 'react';
 import './formproduct.css'
 
 function FormProduct() {
-	return <div className='WrapperFormProduct u-my-2'>
+	return <div className='WrapperFormProduct u-my-1'>
 		<h3 className='WrapperFormProduct-h3'>Created Product</h3>
 		<h4 className='WrapperFormProduct-h4 u-my-0'>Add</h4>
 		<form className='FormProduct'>

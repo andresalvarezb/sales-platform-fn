@@ -72,16 +72,17 @@ function Table() {
 						<TableRow product={product} key={product.id} />
 					))
 				}
-				<tr className='TableBody-total'>
-					<td>Total</td>
-					<td>7515954</td>
-				</tr>
-				<tr>
-					<button className='btn btn--primary ' type='submit'>Save</button>
-					<button className='btn' type='reset'>Cancel</button>
-				</tr>
 			</tbody>
 		</table>
+		<footer className='FooterBill'>
+			<div className='FooterBill-total'>
+				<p>Total: {5484845}</p>
+			</div>
+			<div className='FooterBill-containerButtons'>
+				<button className='btn btn--primary FooterBill-button' type='submit'>Save</button>
+				<button className='btn FooterBill-button' type='reset'>Cancel</button>
+			</div>
+		</footer>
 	</>
 }
 

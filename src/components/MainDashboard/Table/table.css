@@ -14,3 +14,36 @@
     font-size: 1rem;
     font-weight: 500;
 }
+
+.TableBody-total td{
+    margin-block: 1rem;
+
+}
+
+.FooterBill {
+    margin: 0.5rem 0;
+}
+
+.FooterBill-total {
+    padding: 0.5rem 0;
+}
+
+.FooterBill-total p {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.FooterBill-containerButtons {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.FooterBill-containerButtons button {
+    width: 100px;
+}
+.FooterBill-containerButtons button:last-child {
+    border-color: var(--color-1-1);
+}

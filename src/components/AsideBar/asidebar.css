@@ -37,6 +37,10 @@
     color: var(--color-1-1);
 }
 
+.Sidebar-items i {
+    width: 20px;
+}
+
 .Sidebar-nav li:hover .Sidebar-items {
     color: var(--color-1-3);
 }
@@ -44,3 +48,4 @@
 .Sidebar-nav li:hover {
     background-color: var(--color-1-5);
 }
+
